@@ -33,4 +33,4 @@ while(cek){
     cek = confirm('Coba lagi?');
 }
 
-alert('arigato gozaimasu')
+alert('arigato gozaimasu');
