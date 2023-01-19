@@ -1,4 +1,6 @@
-// Latihan membuat function
+/*
+ ! Latihan membuat function
+*/
 // function menjumlahVolumeKubus(kubus1, kubus2){
 //     var jumlah;
 //     var volumeKubus1, volumeKubus2;
@@ -12,13 +14,27 @@
 
 // alert(menjumlahVolumeKubus(8,3));
 
-function tambah(a,b){
-    return a + b;
+/*
+ !Functionn expression
+*/
+// function tambah(a,b){
+//     return a + b;
+// }
+
+// function kali(a,b){
+//     return a * b;
+// }
+
+// var hasil = kali(tambah(2,2), tambah(3,3));
+// console.log(hasil);
+
+/*
+ ! Functionn arguments
+ ? tidak perlu ada parameter
+*/
+
+function tes(){
+    return arguments;
 }
 
-function kali(a,b){
-    return a * b;
-}
-
-var hasil = kali(tambah(2,2), tambah(3,3));
-console.log(hasil);
+console.log(tes(1,6,3,9));
