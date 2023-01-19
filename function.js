@@ -37,4 +37,4 @@ function tes(){
     return arguments;
 }
 
-console.log(tes(1,6,3,9));
+console.log(tes(1,6,3,9)); // akan tampil 1, 6, 3, 9 walaupun function tidak memiliki parameter karena menggunakan fungsi 'arguments'
